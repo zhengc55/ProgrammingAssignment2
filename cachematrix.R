@@ -6,6 +6,7 @@
 makeCacheMatrix <- function(data=NA,nrow=1,ncol=1,byrow=FALSE,dimnames=NULL) {
     m <- NULL
     x <- matrix(data,nrow,ncol,byrow,dimnames)
+    #test command
     set <- function(z) {
         x <<- z
         m <<- NULL
